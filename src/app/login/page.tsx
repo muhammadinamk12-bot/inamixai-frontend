@@ -14,7 +14,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/v1/auth/login", {
+      const res = await fetch("https://inamixai-wave1.vercel.app/api/v1/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
